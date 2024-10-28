@@ -9,6 +9,8 @@ public class MyControllers {
 	@GetMapping("/test-docker")
 	public String getData(){
 		
+		System.out.println("Hello World!");
+		
 		return "In Docker tutorial project of Play java";
 	}
 }
